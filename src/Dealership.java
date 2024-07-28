@@ -13,7 +13,8 @@ public class Dealership {
     void showInventory() {
         int i = 1;
         for (Vehicle v : inventory) {
-            System.out.println("Car " + i);
+            System.out.println("________________");
+            System.out.println("Vehicle " + i + ":");
             System.out.println(v.displayInfo());
             i ++;
         }
